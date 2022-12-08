@@ -3,9 +3,15 @@ h3 {
 }
 
 img {
-
+   padding:25px;
+   margin: auto;
+   display: grid;
+   height: 300px;
+   width: 250px;
 }
 
 .photos {
    text-align: center;
+   border-right: 1px dashed black;
+   border-left: 1px dashed black;
 }

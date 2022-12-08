@@ -1,0 +1,6 @@
+div {
+    border-top: 3px solid black;
+    text-align: center;
+    display: grid;
+    padding: 15px;
+}
