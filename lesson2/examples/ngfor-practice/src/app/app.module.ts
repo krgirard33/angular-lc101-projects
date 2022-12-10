@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { MovieListComponent } from './movie-list/movie-list.component';
 import { ChoresComponent } from './chores/chores.component';
 
-@NgModule({
+@NgModule ({
   declarations: [
     AppComponent,
     MovieListComponent,
