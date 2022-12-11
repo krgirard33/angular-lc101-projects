@@ -31,6 +31,14 @@ export class CandidatesComponent implements OnInit {
   }
 
   // BONUS: Code the changeMissionName function here:
+  changeMissionName(newMissionName: string) {
+    if(newMissionName !== '') {
+      this.missionName = newMissionName;
+      return false;
+    } else {
+      return true;
+    }
 
+  }
 
 }
