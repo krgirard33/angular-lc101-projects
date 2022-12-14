@@ -1,0 +1,17 @@
+<div class="buttons">
+  <h1>Joke Buttons</h1>
+  <div (mouseout)="active = true">
+    <button
+      [class.gold]="active"
+      [disabled]="!active"
+      (mouseover)="active = false"
+    >
+      Frustration
+    </button>
+  </div>
+  <div [align]="location" (mouseover)="location = shiftLocation(location)">
+    <button class="silver">Catch me</button>
+  </div>
+</div>
+
+<div [class.special]="specialFactor" (click)="specialFactor = !specialFactor">Very Special Content</div>
